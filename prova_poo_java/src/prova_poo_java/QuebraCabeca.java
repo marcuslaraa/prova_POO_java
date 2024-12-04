@@ -13,7 +13,7 @@ public class QuebraCabeca {
 
     public QuebraCabeca() {
         this.pecas = new ArrayList<>();
-        this.espaco = new EspacoVazio(true);  // Inicia com espaço vazio.
+        this.espaco = new EspacoVazio(true);
     }
 
     public void adicionarPeca(Peca peca) {

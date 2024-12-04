@@ -5,10 +5,10 @@
 package prova_poo_java;
 
 public class Peca {
-    private Dente bordaCima;
-    private Dente bordaBaixo;
-    private Dente bordaEsquerda;
-    private Dente bordaDireita;
+    private final Dente bordaCima;
+    private final Dente bordaBaixo;
+    private final Dente bordaEsquerda;
+    private final Dente bordaDireita;
 
     public Peca(Dente bordaCima, Dente bordaBaixo, Dente bordaEsquerda, Dente bordaDireita) {
         this.bordaCima = bordaCima;

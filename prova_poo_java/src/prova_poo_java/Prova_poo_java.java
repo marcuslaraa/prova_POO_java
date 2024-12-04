@@ -20,6 +20,10 @@ public class Prova_poo_java {
         Peca peca3 = new Peca(d5, d6, d7, d8);
         Peca peca4 = new Peca(d6, d7, d8, d5);
         Peca peca5 = new Peca(d1, d3, d2, d7);
+        Peca peca6 = new Peca(d1, d4, d8, d7);
+        Peca peca7 = new Peca(d2, d8, d3, d5);
+        Peca peca8 = new Peca(d4, d5, d2, d1);
+        Peca peca9 = new Peca(d1, d8, d2, d7);
 
         QuebraCabeca quebraCabeca = new QuebraCabeca();
         quebraCabeca.adicionarPeca(peca1);
@@ -27,6 +31,10 @@ public class Prova_poo_java {
         quebraCabeca.adicionarPeca(peca3);
         quebraCabeca.adicionarPeca(peca4);
         quebraCabeca.adicionarPeca(peca5);
+        quebraCabeca.adicionarPeca(peca6);
+        quebraCabeca.adicionarPeca(peca7);
+        quebraCabeca.adicionarPeca(peca8);
+        quebraCabeca.adicionarPeca(peca9);
 
         System.out.println("Tentando encaixar as peças:");
         quebraCabeca.encaixarPecas();
